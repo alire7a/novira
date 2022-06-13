@@ -1,0 +1,47 @@
+@import "Styles/Form";
+body{
+  background-color: #c45e5e;
+  padding: 2rem;
+}
+.product{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 10px;
+  min-height: 150px;
+  display: flex;
+  justify-content: space-between;
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+  .title{
+    font-weight: 900;
+    font-size: 20px;
+  }
+  img{
+    margin-left: 20px;
+    max-height: 100px;
+  }
+}
+
+.cards-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: white;
+  padding: 1rem;
+  margin: 10px;
+  display: flex;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px 1px black;
+  .id{
+    display: flex;
+    *{
+      margin-right: 10px;
+    }
+  }
+}
